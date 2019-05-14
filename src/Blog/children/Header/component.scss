@@ -1,0 +1,24 @@
+.blog-header {
+  height: 50px;
+  line-height: 50px;
+  .logo {
+    float: left;
+    width: 135px;
+  }
+  .nav {
+    float: left;
+    >a {
+      margin: 0 20px;
+      text-decoration: none;
+      color: #888;
+    }
+    .active {
+      color: #056EFF;
+    }
+  }
+}
+.blog-bg {
+  height: 330px;
+  background-image: url('./images/bg.jpg');
+  background-size: contain;
+}
